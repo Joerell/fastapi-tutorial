@@ -9,3 +9,7 @@ async def root():
 @app.post("/")
 async def post():
     return {"message": "hello from post route"}
+
+@app.put("/")
+async def put():
+    return {"message": "hello from put route" }
